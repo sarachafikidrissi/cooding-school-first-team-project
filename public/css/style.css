@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul>li {
+    list-style: none;
+
+}
+
+.second-section {
+    background-color: #f6f6fd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vw 0;
+    
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+}
+
+.description p {
+    width: 30vw;
+    text-align: center;
+    color: #a7a4a4;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    padding: 4vw 15vh;
+
+
+}
+.features-items {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+}
+
+.features-items p {
+    text-align: center;
+    color: #a7a4a4;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ece7fe;
+    color: #afbad2;
+}
+
+.fifth-section {
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    padding: 8vw 15vh;
+}
+
+.first-part {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.details {
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+}
+.icon1 {
+    font-size: 30px;
+    
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.right-side h2 {
+    color: rgb(103, 101, 101);
+}
+
+.right-side p {
+    color: #a7a4a4;
+    width: 20vw;
+}
+
+footer {
+    padding: 0vw 15vh;
+    background-color: #f6f6fd;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+
+}
+
+.top>h1 {
+    width: 40vw;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+form>input {
+    padding: 2vh 10vw 2vh 2vh;
+}
+
+form>button {
+    background-color: #6d48e5;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 2vh 10vw;
+    border-radius: 4px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vw;
+}
+
+ul {
+    display: flex;
+    gap: 2vw;
+
+}
+
+
