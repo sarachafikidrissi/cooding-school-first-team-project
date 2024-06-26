@@ -13,6 +13,9 @@ ul>li {
     list-style: none;
 
 }
+#menu {
+    display: none;
+}
 
 .second-section {
     background-color: #f6f6fd;
@@ -166,7 +169,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 10vh;
+    padding: 2vh;
 }
 .links{
     display: flex;
@@ -204,6 +207,7 @@ a{
     flex-direction: column;
     text-align: center;
     gap: 2vh;
+    padding: 0 2vh;
 }
 .images{
     display: flex;
@@ -375,12 +379,13 @@ button:hover{
 
     nav{
         justify-content: space-between;
-        padding-inline: 30px;   
-        
+        align-items: start;
+        padding-inline: 30px;  
     
        }
        .link{
-        display: none;
+        /* opacity: 0; */
+        /* display: none; */
         
        }
     
@@ -492,6 +497,30 @@ button:hover{
         width: 80%;
         gap: 2vh;
     }
+
+   #menu:checked ~ .link {
+        /* display: flex; */
+        
+        /* top: 8vh; */
+        left: 0vw;
+   }
+
+    .link {
+        position: fixed;
+        top: 8vh;
+        left: -150%;
+        align-items: start;
+        flex-direction: column;
+        background-color: white;
+        transition: 1s;
+        padding: 1.75rem 30px;
+        width: 100%;
+        opacity: 0.5;
+        gap: 2vh;
+        font-weight: bold;
+    }
+
+   
 
     
 
