@@ -1,0 +1,75 @@
+*{
+    padding: 0;margin: 0;
+}
+body{
+    padding-inline: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 0;
+}
+nav>h1{
+    color: rgb(49, 69, 132);
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.links>a{
+    text-decoration: none;
+    color: rgb(76, 107, 167);
+}
+.btn1{
+    background-color: transparent;
+    color: rgb(255, 57, 70);
+    padding: 10px 2vw;
+    border: 1px solid rgb(255, 57, 70);
+    border-radius: 5px;
+}
+
+
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-right{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+.para-and-h1{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.para-and-h1>h1{
+    font-size: 60px;
+    color: rgb(76, 107, 167);
+}
+.para-and-h1>p{
+    width: 27vw;
+    color: grey;
+}
+.btn2{
+    background-color: rgb(255, 57, 70);
+    color: white;
+    padding: 10px 2vw;
+    border: none;
+    border-radius: 15px;
+}
+.btns>a{
+    text-decoration: none;
+    color: rgb(112, 161, 215);
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
