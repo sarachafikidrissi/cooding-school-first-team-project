@@ -308,6 +308,10 @@ a{
     color: white;
     padding: 10vh 0;
 }
+.boost{
+    display: flex;
+    flex-direction: column;
+}
 .fourt-section>a{
     color: white;
 }
@@ -358,6 +362,61 @@ a{
 }
 @media (max-width: 425px) {
 
+    nav{
+        justify-content: space-between;
+        padding-inline: 30px;   
+        
+    
+       }
+       .link{
+        display: none;
+        
+       }
+    
+       .images{
+        flex-direction: column;
+        justify-content: center;
+        width: 30px;
+       }
+        img{
+            width: 300px;
+        }
+        .part-one{
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+        }
+        .part-one>h1{
+            font-size: 25px;
+        }
+        .part-one>p{
+            width: 85vw;
+            text-align: center;
+        }
+        .Dynamic{
+            flex-direction: column;
+            align-items: center;
+        }
+        .inside-dynamic{
+            width: 60vw;
+            text-align: center;
+            gap: 1vh;
+        }
+    
+    
+        .numbers{
+            flex-direction: column;
+        }
+        .boost{
+            text-align: center;
+            gap: 1vh;
+        }
+        .boost>h1{
+            font-size: 27px;
+        }
+        .numbers>div>h1{
+            font-size: 50px;
+        }
     .second-section {
         gap: 5vh;
         padding-top: 3vh;
