@@ -1,5 +1,7 @@
 *{
     padding: 0;margin: 0;
+    font-family: sans-serif;
+    font-size:17px ;
 }
 body{
    
@@ -48,6 +50,8 @@ nav>h1{
     padding: 10px 2vw;
     border: 1px solid rgb(255, 57, 70);
     border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
     transition: 0.3s;
 }
 .btn1:hover{
@@ -86,9 +90,11 @@ nav>h1{
     padding: 10px 2vw;
     border: 1px solid rgb(255, 57, 70);
     border-radius: 15px;
+    font-size: small;
+    font-weight: bold;
     transition: 0.3s;
 }
-.btn2:hover{
+.btn2:hover , .left-side-btn:hover{
     background-color: transparent;
     color: rgb(255, 57, 70);
 }
@@ -98,6 +104,7 @@ nav>h1{
 }
 .btns{
     display: flex;
+    align-items: center;
     gap: 2vw;
 }
 
@@ -119,12 +126,12 @@ nav>h1{
 
 .left-side-btn{
     padding: 1.5vh;
-    width: 50%;
-    border: none;
+    width: 60%;
+    border: 1px solid rgb(255, 57, 70);
     border-radius: 50px;
     background-color: rgb(255, 57, 70);
     color: white;
-    font-size: 16px;
+    font-size: small;
     font-weight: bold;
     
 }
@@ -135,7 +142,10 @@ nav>h1{
     height: 30vh;
     border: 1px solid none;
 }
-
+.left-side>h1{
+    font-size: 20px;
+    
+}
 .left-side>h1, .right-side>h2, .center-side>h2 {
     color: rgb(49, 69, 132);
 }
@@ -238,6 +248,9 @@ i{
 
 
 @media (max-width: 430px){
+    body{
+        gap: 15vh;
+    }
     nav{
         padding-inline: 10px;
     }
@@ -256,10 +269,11 @@ i{
     }
     .para-and-h1>h1{
         font-size: 35px;
+        text-align: center;
     }
     .para-and-h1>p{
         text-align: center;
-        width: 60vw;
+        width: 65vw;
     }
     .btns{
         flex-direction: column;
@@ -278,7 +292,7 @@ i{
 
     .links2{
         flex-direction: column;
-        gap: 2vh;
+        gap: 3vh;
     }
     .icons{
         width: 100%;
@@ -288,6 +302,7 @@ i{
     .second-section {
         flex-direction: column;
         align-items: center;
+        gap: 10vh;
     }
 
     .second-section>div {
