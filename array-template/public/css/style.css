@@ -383,18 +383,14 @@ button:hover{
         padding-inline: 30px;  
     
        }
-       .link{
-        /* opacity: 0; */
-        /* display: none; */
-        
-       }
+      
     
        .images{
         flex-direction: column;
         justify-content: center;
-        width: 30px;
+        gap: 3vh;
        }
-        img{
+       .first-img{
             width: 300px;
         }
         .part-one{
@@ -416,9 +412,11 @@ button:hover{
         .inside-dynamic{
             width: 60vw;
             text-align: center;
-            gap: 1vh;
+            gap: 2vh;
         }
-    
+        .third-section{
+            gap: 6vh;
+        }
     
         .numbers{
             flex-direction: column;
