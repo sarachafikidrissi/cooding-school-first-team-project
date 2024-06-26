@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 body{
     display: flex;
@@ -106,8 +107,9 @@ ul>li {
 }
 
 footer {
-
-    padding: 3vh 15vw;
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 15vw;
     background-color: #f6f6fd;
 }
 
@@ -115,7 +117,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2vh;
+    gap: 4vh;
 
 }
 
@@ -290,6 +292,7 @@ a{
 .inside-dynamic{
     display: flex;
     flex-direction: column;
+    gap: 2vh;
     width: 20vw;
 }
 .inside-dynamic>a{
@@ -325,7 +328,15 @@ a{
 }
 .numbers>div>h1{
     font-size: 70px;
-}@media (max-width: 768px) {
+}
+
+button:hover{
+    background-color: transparent;
+    color: #6d48e5;
+    border: 1px solid #6d48e5;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
 
     .fifth-section {
         flex-direction: column-reverse;
@@ -418,12 +429,13 @@ a{
             font-size: 50px;
         }
     .second-section {
-        gap: 5vh;
-        padding-top: 3vh;
+        gap: 8vh;
+        padding: 6vh 0;
     }
 
     .description h1 {
         font-size: 20px;
+        text-align: center;
     }
     .description p{
         width: 80%;
@@ -437,6 +449,7 @@ a{
     .features {
         flex-direction: column;
         padding: 0;
+        gap: 5vh;
     }
     .features-items {
         width: 100%;
@@ -464,7 +477,7 @@ a{
     }
 
     footer {
-        padding: 3vh 0;
+        padding: 6vh 0;
         display: flex;
         flex-direction: column;
         gap: 5vh;
