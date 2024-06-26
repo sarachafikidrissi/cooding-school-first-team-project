@@ -12,7 +12,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5vh 0;
+    padding: 5vh 10vw;
 }
 nav>h1{
     color: rgb(49, 69, 132);
@@ -60,6 +60,7 @@ nav>h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-inline: 10vw;
 }
 .first-right{
     display: flex;
@@ -97,7 +98,6 @@ nav>h1{
 }
 .btns{
     display: flex;
-    align-items: center;
     gap: 2vw;
 }
 
@@ -105,6 +105,8 @@ nav>h1{
     display: flex;
     justify-content: space-between;
     gap: 10vw;
+    padding-inline: 10vw;
+
 }
 
 .second-section>div {
@@ -113,17 +115,18 @@ nav>h1{
     flex-direction: column;
     gap: 2vh;
     padding: 3vh;
-    align-items: start;
 }
 
-.left-side button {
+.left-side-btn{
     padding: 1.5vh;
+    width: 50%;
     border: none;
     border-radius: 50px;
     background-color: rgb(255, 57, 70);
     color: white;
     font-size: 16px;
     font-weight: bold;
+    
 }
 
 .center-side, .right-side {
@@ -141,6 +144,11 @@ nav>h1{
     color: gray;
 }
 
+.left-side {
+    display: flex;
+    
+}
+
 .link {
     text-decoration: none;
     color: rgb(255, 57, 70);
@@ -150,6 +158,8 @@ nav>h1{
     display: flex;
     flex-direction: column;
     gap: 4vh;
+    padding-inline: 10vw;
+
 
 }
 
@@ -253,6 +263,7 @@ i{
     }
     .btns{
         flex-direction: column;
+        align-items: center;
     }
     .first-right{
         gap: 5vh;
@@ -273,4 +284,37 @@ i{
         width: 100%;
         justify-content: space-evenly;
     }
+
+    .second-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-section>div {
+        width: 100%;
+
+    }
+
+    .left-side {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .svgs {
+        width: 50px;
+    }
+
+    .center-side, .right-side {
+        align-items: center;
+        text-align: center;
+    }
+    .get-in-touch {
+        align-items: center;
+    }
+
+
+
 }
+
+
